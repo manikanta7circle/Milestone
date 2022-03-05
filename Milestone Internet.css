@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-container {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-icon {
+    height: 60px;
+    width: 150px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-list-conatainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    padding: 40px;
+    width: 100%;
+}
+
+.nav-link-item {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 15px;
+}
+
+.book-now-button {
+    color: white;
+    background-color: Red;
+    width: 200px;
+    height: 100%;
+    padding: 30px;
+    border: 0px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.description-container {
+    padding: 40px;
+    text-align: center;
+}
+
+.heading {
+    font-weight: bold;
+    font-family: Roboto;
+}
+
+.description {
+    font-family: Roboto;
+    font-size: 25px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.description-more {
+    font-family: Roboto;
+    font-size: 25px;
+}
+
+.action-button {
+    border: 1px solid orange;
+    padding: 0px;
+    margin: 0px;
+    color: orange;
+    font-weight: bold;
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.bottom-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.images {
+    height: 300px;
+    width: 50%;
+    margin: 40px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-icon-container {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    background-color: red;
+}
+
+.donation-icon {
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
+}
+
+.doantion {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.right-container {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-links-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom-link-item {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.bottom-link {
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width: 768px) {
+    .footer-links-container {
+        flex-direction: column;
+        justify-content: flex-end;
+        align-content: flex-end;
+        padding: 20px;
+    }
+
+    .right-container {
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .bottom-link {
+        text-align: right;
+    }
+
+    .bottom-link-item {
+        text-align: right;
+    }
+
+    .menu-container {
+        display: none;
+    }
+}
